@@ -1,5 +1,5 @@
 FROM golang:1.9-alpine
-MAINTAINER Trey Jones "trey@eyesoreinc.com"
+MAINTAINER bitdon8 "info@bitdon8.com"
 
 COPY ./ $GOPATH/src/github.com/trey-jones/xmrwasp/
 

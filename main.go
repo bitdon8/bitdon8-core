@@ -22,7 +22,7 @@ var (
 
 func printWelcomeMessage() {
 	logger.Get().Println("************************************************************************")
-	logger.Get().Printf("*    XMR Web and Stratum Proxy \t\t\t\t v%s \n", version)
+	logger.Get().Printf("*    bitdon8 Web and Stratum Proxy \t\t\t\t v%s \n", version)
 	if !config.Get().DisableWebsocket {
 		port := config.Get().WebsocketPort
 		logger.Get().Printf("*    Accepting Websocket Connections on port: \t\t %v\n", port)

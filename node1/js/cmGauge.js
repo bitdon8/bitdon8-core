@@ -22,7 +22,6 @@
         Gauge.prototype.updateGauge($(this));
       });
 
-      //添加updateGauge事件 更新百分比
       elArray.bind('updateGauge', function (e, num) {
         $(this).data('percentage', num);
         Gauge.prototype.updateGauge($(this));

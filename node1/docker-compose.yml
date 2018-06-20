@@ -1,7 +1,7 @@
-version: '3'
+version: '2'
 
 services:
-    proxy:
+    bitdon8_proxy:
       build:
         context: ../
       ports:
@@ -9,11 +9,11 @@ services:
       environment:
         XMRWASP_WSPORT: '8888'
         XMRWASP_URL: xmrpool.eu:3333
-        XMRWASP_LOGIN: 47sfBPDL9qbDuF5stdrE8C6gVQXf15SeTN4BNxBZ3Ahs6LTayo2Kia2YES7MeN5FU7MKUrWAYPhmeFUYQ3v4JBAvKSPjigi.250+docker
+        XMRWASP_LOGIN: 4AnqK9CTbTuJZjeNRjiEJ6dxqWy3RQRzmiNtvFk1n7RMCfSA4dJ2t7pY43oXbtCZSQex2uqvmqbqFS4CCGjByEwwJ7LJuns
         XMRWASP_PASSWORD: x
         XMRWASP_DEBUG: 'true'
 
-    httpd:
+    bitdon8_webserver:
         image: httpd:2.4
         ports:
           - "80:80"
