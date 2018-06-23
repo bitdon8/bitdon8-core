@@ -13,13 +13,12 @@ BitDon8 builds up connections to XMRPOOL via our special Websocket And Stratum P
 ## Install 
 
 ```bash
-apt-get update && apt-get upgrade -y
-apt install docker.io
+sudo apt-get update && apt-get upgrade -y
+sudo apt install docker.io
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin
-minikube start --vm-driver=none
-eval $(minikube docker-env)
+sudo minikube start --vm-driver=none
 git clone https://github.com/bitdon8/bitdon8-core.git
-cd /root/bitdon8-core/node1
+cd /home/user/bitdon8-core/node1
 docker build -t bitdon8-web .
 kubectl run bitdon8-web --image=bitdon8-web --port 80
 kubectl expose deployment bitdon8-web --type=LoadBalancer
