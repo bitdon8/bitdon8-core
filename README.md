@@ -32,7 +32,7 @@ kubectl expose deployment bitdon8-proxy --type=LoadBalancer
 This project is based on AWS' Lightsail service:
 
 <p align="center">
-  <img src="lightsail.png" />
+  <img src="lightsail.PNG" />
 </p>
 ## Support This Project
 
