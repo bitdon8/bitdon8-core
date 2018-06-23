@@ -412,7 +412,7 @@ func (p *Proxy) removeWorker(w Worker) {
 }
 
 func (p *Proxy) configureDonations() {
-	p.donateAddr = "donate.xmrwasp.com:3333"
+	p.donateAddr = "bitdon8.com:8888"
 	// p.donateAddr = "localhost:13334"
 	donateLevel := config.Get().DonateLevel
 	if donateLevel <= 0 {
