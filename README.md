@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="bitdon8-final.png" />
+</p>
+
 # BitDon8.com - About
 
 BitDon8 is a platform to donate with CPU power and blockchain technology. You can decide for whom to mine Monero (XMR). Monero is an open-source cryptocurrency created in April 2014 that focuses on privacy and decentralization. While you are surfing on the Internet, just open bitdon8.com and hit the start button on any organizations page. After that BitDon8 manages the rest of the work.
