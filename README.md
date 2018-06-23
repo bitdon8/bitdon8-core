@@ -27,7 +27,7 @@ docker build -t bitdon8-proxy .
 kubectl run bitdon8-proxy --image=bitdon8-proxy --port 8888
 kubectl expose deployment bitdon8-proxy --type=LoadBalancer
 ```
-## VPS in Amazon Web Services
+## BitDon8.com powered by Amazon Web Services
 
 This project is based on AWS' Lightsail service:
 
