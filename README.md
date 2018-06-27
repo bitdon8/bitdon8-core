@@ -27,6 +27,15 @@ docker build -t bitdon8-proxy .
 kubectl run bitdon8-proxy --image=bitdon8-proxy --port 8888
 kubectl expose deployment bitdon8-proxy --type=LoadBalancer
 ```
+or use docker-compose
+
+```bash
+sudo apt-get update && apt-get upgrade -y
+sudo apt install docker.io
+sudo apt install docker-compose
+cd /home/user/bitdon8/node1
+docker-compose up -d
+```
 ## BitDon8.com powered by Amazon Web Services
 
 This project is based on AWS' Lightsail service:
