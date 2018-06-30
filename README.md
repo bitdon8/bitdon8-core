@@ -48,7 +48,7 @@ This project is based on AWS' Lightsail service:
 
 If you do so, consider a one time donation:
 
-* Monero: `4AnqK9CTbTuJZjeNRjiEJ6dxqWy3RQRzmiNtvFk1n7RMCfSA4dJ2t7pY43oXbtCZSQex2uqvmqbqFS4CCGjByEwwJ7LJuns`
+* Monero: `43yNMXVcGxQRttgBQGBpx2PN5TUhAvDfyNX447W4neRURudg9EzheigENhzDcKNYo1VNbFM2RaQKAfcemrg9Y7PD5oTWDu6`
 
 ## Thanks / Credit
 
