@@ -9,7 +9,7 @@ services:
       environment:
         XMRWASP_WSPORT: '8888'
         XMRWASP_URL: xmrpool.eu:3333
-        XMRWASP_LOGIN: 43yNMXVcGxQRttgBQGBpx2PN5TUhAvDfyNX447W4neRURudg9EzheigENhzDcKNYo1VNbFM2RaQKAfcemrg9Y7PD5oTWDu6
+        XMRWASP_LOGIN: monero_address
         XMRWASP_PASSWORD: x
         XMRWASP_DEBUG: 'true'
 
