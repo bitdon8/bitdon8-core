@@ -36,13 +36,6 @@ sudo apt install docker-compose
 cd /home/user/bitdon8/node1
 docker-compose up -d
 ```
-## BitDon8.com powered by Amazon Web Services
-
-This project is based on AWS' Lightsail service:
-
-<p align="center">
-  <img src="lightsail.PNG" />
-</p>
 
 ## Support This Project
 
@@ -53,4 +46,4 @@ If you do so, consider a one time donation:
 ## Thanks / Credit
 
 * The Web and Stratum proxy is based on the work done by trey-jones (https://github.com/trey-jones/xmrwasp).
-* Bitdon8.com version is created and currently maintained by n0rb (norb.puts(at)gmail.com)
+* Bitdon8.com version is created and currently maintained by n0rb
